@@ -1,0 +1,34 @@
+bodi {
+    background-color: #dddddd;    
+}
+
+h1 {
+    text-align: center;
+    color: #ff6622;
+    font-size: 100;
+    font-family: Arial;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 {
+    color: #000066;
+    font-size: 60;
+    font-family: Arial;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h3 {
+    color: #00ff00;
+    font-size: 50;
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20;
+    font-family: Arial;
+    text-align: justify;
+    margin-left: 10;
+}
