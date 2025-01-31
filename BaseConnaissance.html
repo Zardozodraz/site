@@ -1,0 +1,103 @@
+<html>
+<html lang="fr">
+<head>
+    <title>Ce titre est incroyable</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <!-- Ceci est un commentaire -->
+    <h1>Titre h1 le plus gros</h1>
+    <h2>Titre h2 plus petit</h2>
+    <h3>Titre h3 plus petit que h2</h3>
+    <h4>Titre h4 plus petit que h3</h4>
+    <h5>Titre h5 plus petit que h4</h5>
+    <h6>Titre h6 le plus petit</h6>
+
+    <p>Ceci est un paragraphe "p"
+        écrit sur plusieurs
+        lignes dans 
+        VSCode
+    </p>
+    <p>Si on fait une nouvelle balise "p" on retourne à la ligne car on commence un nouveau paragraphe.</p>
+
+    <p>La balise "ul" permet de faire des listes non-ordonnées.</p>
+    <p>La balise "li" permet de séparer les éléments de la liste.</p>
+    <ul>
+        <li>Liste 1</li>
+        <li>Liste 2</li>
+        <li>Liste 3</li>
+    </ul>
+    <p>La balise "ol" permet de faire des listes ordonnées.</p>
+    <p>La balise "li" permet de séparer les éléments de la liste.</p>
+    <ol>
+        <li>Liste 1</li>
+        <li>Liste 2</li>
+        <li>Liste 3</li>
+    </ol>
+    <p>On peut faire des liste dans les liste.</p>
+    <ul>
+        <li>
+            <ol>
+                <li>Liste "ol"</li>
+                <li>Liste 1-1</li>
+                <li>Liste 1-2</li>
+                <li>Liste 1-3</li>
+            </ol>
+        </li>
+        <li>
+            <ul>
+                <li>Liste "ul"</li>
+                <li>Liste 2-1</li>
+                <li>Liste 2-2</li>
+                <li>Liste 2-3</li>
+        </li>
+    </ul>
+    
+    <p>Balise br/ pour un retour à la ligne</p>
+    <b>Texte "b" en gras</b><br/>
+    <i>Texte "i" en italique</i><br/>
+    <u>Texte "u" souligné</u><br/>
+    <s>Texte "s" barré</s><br/>
+    <mark>Texte "mark surligné</mark><br/>
+    <small>Texte "small" en petits caractères</small><br/>
+    <code>Texte "code" en police fixée pour écrire du code</code><br/>
+    <sub>Texte "sub" en indice</sub><br/>
+    <sup>Texte "sup" en exposant</sup><br/>
+    <b><i><u><s><mark>Les balises peuvent être combinées</mark></s></u></i></b>
+
+    <p>On peut créer des tableaux. (voir le code)</p>
+    <p>tr sépare les lignes, td sépare les colonnes</p>
+    <table border ="5"> <!--Epaisseur du contour du tableau-->
+        <tr>
+            <td>1</td> <td><center>2</center></td> <td><center>3</center></td>
+        </tr>
+        <tr> <!--Rowspan fusionne les lignes, colspan fusionne les colonnes-->
+            <td>A</td> <td rowspan="2" colspan="2">a b c d e f g h i j k l m n o p q r s t u v w x y z</td>
+        </tr>
+        <tr>
+            <td>B</td>
+        </tr>
+    </table>
+    <p>On peut ajouter des liens hypertexte. "a href="abc.com"</p>
+    <a href="https://www.google.com">Lien vers Google</a>
+    <p>On peut insérer des images avec "img src=logo.png" alt="légende de l'image"</p>
+    <img src="logo.png" alt="Logo du site"/>
+    <p>Pour chaque balise d’une page web, il est possible d’ajouter deux attributs, id et class.<br/>
+        
+        L’attribut id représente un identifiant et doit être unique dans le fichier, c’est-à-dire qu’il ne doit pas exister un autre attribut id dans le
+        fichier ayant la même valeur.<br/>
+        
+        L’attribut class contient une suite de noms de classes séparés par des espaces.<br/>
+        Un identifiant permet de désigner un élément HTML dans tout le document.<br/>
+        
+        Les classes permettent d’étiqueter certains éléments. Ces étiquettes seront utilisées dans la définition du style graphique des éléments.</p>
+    <p style="text-align: right;">
+        On écrit un <span style="border: 1px solid black;">paragraphe</span> de texte mais en <span style="color: red">
+        changeant </span> le style graphique.
+    </p>
+    <p>Pour avoir un style différent entre les h1 par exemple, on utilise les id (avec le css)</p>
+    <h1 id="titre-principal">Titre h1 principal</h1>
+    <p>On peut mettre le même style à différentes balises avec les classes (avec le css)</p>
+    <p class="paragraphe-gras">Texte en gras avec la classe "paragraphe-gras"</p>
+</body>
+</html>
